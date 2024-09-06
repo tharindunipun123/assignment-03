@@ -1,0 +1,50 @@
+section{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid black;
+}
+section>div{
+    border: 1px solid black;
+}
+section>div:nth-child(1){
+    background: green;
+}
+
+section>div:nth-child(2){
+    background: fuchsia;
+}
+section>div:nth-child(3){
+    background: blueviolet;
+}
+section>div:nth-child(4){
+    background: yellow;
+}
+section>div:nth-child(5){
+    background: red;
+}
+section>div:nth-child(6){
+    background: darkgoldenrod;
+}
+section>div:nth-child(7){
+    background: aquamarine;
+}
+section>div:nth-child(8){
+    background: royalblue;
+}
+section>div:nth-child(9){
+    background: lightcoral;
+}
+section>div:nth-child(10){
+    background: deepskyblue;
+}
+section>div:nth-child(11){
+    background: lime;
+}
+section>div:nth-child(12){
+    background: mediumvioletred;
+}
+

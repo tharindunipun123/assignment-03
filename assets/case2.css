@@ -1,0 +1,104 @@
+body{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    position: relative;
+    width: 100vw;
+    height: 70px;
+}
+header>nav>ul{
+    padding: 0;
+    margin: 0;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 10px;
+    word-spacing: 10px;
+    text-align:right;
+
+
+}
+header>nav{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+}
+header>img{ position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto;
+}
+footer{
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+main{
+    position: relative;
+}
+
+main>aside{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    position: absolute;
+
+    box-sizing: border-box;
+
+    top: 0;
+    bottom: 0;
+    margin: 0;
+}
+main>aside>ul{
+    margin: 10px;
+    list-style: none;
+    padding: 0;
+
+}
+main>section {
+    width: calc(100vw - 150px);
+    margin-left: 150px;
+}
+
+main>section>p {
+    margin: 0;
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section>div {
+    position: relative;
+    height: 250px;
+}
+
+section>div>div {
+    width: calc(100%/3);
+    height: 250px;
+    position: absolute;
+
+    background: url("../assets/images/monkey-swinging.gif");
+    background-position: center;
+    border: 1px solid green;
+    box-sizing: border-box;
+
+}
+section>div>div:first-child{}
+
+section>div>div:nth-child(2){
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+section>div>div:nth-child(3){
+    right: 0;
+}
